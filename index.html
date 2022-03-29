@@ -12,8 +12,8 @@
     <!--NAVBAR SECTION-->
     <section>
         <nav class="navbar navbar-light bg-dark">
-            <span class="navbar-brand text-info mx-5 px-5" >Portfolio</span>
-            <a href="#" class="link-info mx-5 px-5">CONTACT ME</a>
+            <span class="navbar-brand text-info mx-5" >Portfolio</span>
+            <a href="#" class="link-info mx-5">CONTACT ME</a>
         </nav>
     </section> 
 
@@ -42,8 +42,8 @@
 
 
                 <!--CABIN IMG COL-->
-                <div class="col">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" >
                         <img class="card-img-top" src="img/portfolio/cabin.png" alt="Card image cap">
                         <div class="card-body text-center">
                           <h5 class="card-title ">Cabin website</h5>
@@ -54,8 +54,8 @@
 
                 </div>
                 <!--CAKE IMG COL-->
-                <div class="col">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card" >
                         <img class="card-img-top" src="img/portfolio/cake.png" alt="Card image cap">
                         <div class="card-body text-center">
                           <h5 class="card-title ">Cake website</h5>
@@ -66,8 +66,8 @@
 
                 </div>
                 <!--CIRCUS IMG COL-->
-                <div class="col">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         <img class="card-img-top" src="img/portfolio/circus.png" alt="Card image cap">
                         <div class="card-body text-center">
                           <h5 class="card-title ">Circus website</h5>
@@ -78,13 +78,13 @@
 
                 </div>
                 
-            </div>
+            
 
-            <!--SECOND ROW-->
-            <div class="row my-5">
+            
+            
                 <!--GAME IMG COL-->
-                <div class="col">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         <img class="card-img-top" src="img/portfolio/game.png" alt="Card image cap">
                         <div class="card-body text-center">
                           <h5 class="card-title ">Game website</h5>
@@ -96,8 +96,8 @@
                 </div>
 
                 <!--SAFE IMG COL-->
-                <div class="col">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         <img class="card-img-top" src="img/portfolio/safe.png" alt="Card image cap">
                         <div class="card-body text-center">
                           <h5 class="card-title ">Safe website</h5>
@@ -109,8 +109,8 @@
                 </div>
 
                 <!--SUBMARINE IMG COL-->
-                <div class="col">
-                    <div class="card" style="width: 25rem;">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
                         <img class="card-img-top" src="img/portfolio/submarine.png" alt="Card image cap">
                         <div class="card-body text-center">
                           <h5 class="card-title ">Submarine website</h5>
@@ -126,90 +126,90 @@
 
         <!--FORM-->
     <section class="bg-info">
-        <form id="formPortfolio" onsubmit="">
-            <div class="container">
-                <h1 class="text-center">WANT AN OFFER?</h1>
+        
+        <div class="container">
+            <h1 class="text-center">WANT AN OFFER?</h1>
 
-                <!--NAME-->
-                <div class="row p-2">
-                    
-                    <div class="col">
-                        <label for="firstName">First name</label>
-                        <input type="text" class="form-control" placeholder="First name">
-                    </div>
-
-
-                    <div class="col">
-                        <label for="lastName">Last name</label>
-                        <input type="text" class="form-control" placeholder="Last name">
-                    </div>
-
+            <!--NAME-->
+            <div class="row p-2">
+                
+                <div class="col-12 col-sm-6">
+                    <label for="firstName">First name</label>
+                    <input type="text" class="form-control" placeholder="First name">
                 </div>
 
-                <!--EMAIL, HOURS-->
-                <div class="row p-2">
 
-                    <div class="col">
-                        <label for="emailAddress">Email address</label>
-                        <input type="email" class="form-control" placeholder="Email" id="email">
-                    </div>
-
-
-                    <div class="col">
-                        <label for="hoursRequested" >Hours requested</label>
-                        <input type="number" class="form-control" id="oreDiLavoro" name="oreDiLavoro">
-                    </div>
-
-                </div>
-
-                <!--TYPE OF WORK, DISCOUNT CODE-->
-                <div class="row p-2">
-
-                    <div class="col">
-                        <label for="typeOfWork">Type of work</label>
-                        <select class="form-select" id="tipoDiLavoro">
-                            
-                            <option value="1">Sviluppo back-end</option>
-                            <option value="2">Sviluppo front-end</option>
-                            <option value="3">Analisi progettuale</option>
-
-                        </select>
-                        
-                    </div>
-
-
-                    <div class="col">
-                        <label for="discountCode">Discount Code</label>
-                        <input type="text" class="form-control border-3" id="discountCode" name="discountCode">
-                    </div>
-
-                </div>
-
-                <!--TEXT-AREA-->
-                <div class="row p-2">
-
-                    <div class="col">
-                        <label for="textArea">Message</label>
-                        <textarea class="form-control" rows="4"></textarea>
-                    </div>
-
-                </div>
-
-                <!--BUTTON-->
-                <div class="row p-2 text-center">
-
-                    <div class="col">
-                        <button type="button" class="btn btn-warning text-center" id="bottone">Send</button>
-                    </div>
-
-                </div>
-
-                <div>
-                    <h5 id="totale"></h5>
+                <div class="col-12 col-sm-6">
+                    <label for="lastName">Last name</label>
+                    <input type="text" class="form-control" placeholder="Last name">
                 </div>
 
             </div>
-        </form>
+
+            <!--EMAIL, HOURS-->
+            <div class="row p-2">
+
+                <div class="col-12 col-sm-6">
+                    <label for="emailAddress">Email address</label>
+                    <input type="email" class="form-control" placeholder="Email" id="email">
+                </div>
+
+
+                <div class="col-12 col-sm-6">
+                    <label for="hoursRequested" >Hours requested</label>
+                    <input type="number" class="form-control" id="oreDiLavoro" name="oreDiLavoro">
+                </div>
+
+            </div>
+
+            <!--TYPE OF WORK, DISCOUNT CODE-->
+            <div class="row p-2">
+
+                <div class="col-12 col-sm-6">
+                    <label for="typeOfWork">Type of work</label>
+                    <select class="form-select" id="tipoDiLavoro">
+                        
+                        <option value="1">Sviluppo back-end</option>
+                        <option value="2">Sviluppo front-end</option>
+                        <option value="3">Analisi progettuale</option>
+
+                    </select>
+                    
+                </div>
+
+
+                <div class="col-12 col-sm-6">
+                    <label for="discountCode">Discount Code</label>
+                    <input type="text" class="form-control border-3" id="discountCode" name="discountCode">
+                </div>
+
+            </div>
+
+            <!--TEXT-AREA-->
+            <div class="row p-2">
+
+                <div class="col-12">
+                    <label for="textArea">Message</label>
+                    <textarea class="form-control" rows="4"></textarea>
+                </div>
+
+            </div>
+
+            <!--BUTTON-->
+            <div class="row p-2 text-center">
+
+                <div class="col">
+                    <button type="button" class="btn btn-warning text-center" id="bottone">Send</button>
+                </div>
+
+            </div>
+
+            <div>
+                <h5 id="totale"></h5>
+            </div>
+
+        </div>
+        
 
 
     </section>
