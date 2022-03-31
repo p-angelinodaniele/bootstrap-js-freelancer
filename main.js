@@ -9,10 +9,11 @@
 
 
 //CLICK BOTTONE TOTALE
-const element = document.getElementById("bottone");
-element.addEventListener("click", importo)
+//const element = document.getElementById("bottone");
+//element.addEventListener("click", importo)
 
-function importo(){
+function importo(e){
+    e.preventDefault();
     let totale;
     let typeOfWork = document.getElementById("tipoDiLavoro").value;
     let ore = parseFloat(document.getElementById("oreDiLavoro").value);
